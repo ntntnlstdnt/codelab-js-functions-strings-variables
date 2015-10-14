@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Using Prompts to Edit </title>
+  </head>
+  <body>
+    <p id="name">
+      <script>
+        var name = prompt('What is thy name?')
+        if (name != null){
+          document.getElementById('name').innerHTML =
+          "Hey my name is " + name + "."
+        };
+      </script>
+    </p>
+    <p id="color">
+      <script>
+      var color = prompt('Have a favorite color?')
+      if (name != null){
+        document.getElementById('color').innerHTML =
+       "My favorite color is "+ color + "."
+     };
+      </script>
+    </p>
+    <p id= 'sport'>
+      <script>
+          var sport = prompt('So what is your favorite sport?')
+          if (name != null){
+            document.getElementById('sport').innerHTML =
+           "I like playing/watching "+ sport + "."
+         };
+      </script>
+    </p>
+
+  </body>
+</html>
